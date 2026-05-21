@@ -1,58 +1,42 @@
-# Expense Tracker System 💰
+# Expense Tracker Application
 
-A modern full-stack web application designed to help users manage and monitor their daily expenses efficiently. The system provides a premium user experience with a clean interface, real-time updates, and expense categorization.
-
-## 🚀 Features
-
-- Add new expenses with title, amount, category, and date
-- View all expenses in a structured list
-- Delete incorrect or unnecessary entries
-- Real-time expense summary updates
-- Expense categorization (Food, Transport, Bills, etc.)
-- Responsive UI for desktop and mobile
-- Clean and modern premium design
-- REST API based architecture
-- Docker support for easy deployment
+A simple Expense Tracker application developed using Java, Maven, and Docker.  
+This project was created to understand and practice DevOps concepts by integrating Maven for build automation and Docker for containerization.
 
 ---
 
-## 🛠 Tech Stack
+## 🚀 Project Objective
 
-### Backend
-- Java 17
-- Spring Boot
-- Spring Data JPA
-- H2 Database
-- Lombok
+The main objective of this project is to learn:
+
+- Maven Build Lifecycle
+- Docker Containerization
+- Docker Compose
+- DevOps Workflow
+- Application Deployment
+- Multi-stage Docker Builds
+
+This project demonstrates how a Java application can be packaged, containerized, and deployed efficiently using DevOps tools.
+
+---
+
+## 🛠️ Tech Stack
+
+- Java
 - Maven
-
-### Frontend
-- HTML5
-- CSS3
-- JavaScript
-- Lucide Icons
-
-### DevOps
 - Docker
 - Docker Compose
+- Spring Boot
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```bash
-ExpenseTracker/
+expense-tracker/
 │
 ├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── controller/
-│   │   │   ├── model/
-│   │   │   └── repository/
-│   │   ├── resources/
-│   │   └── static/
-│
+├── pom.xml
 ├── Dockerfile
 ├── docker-compose.yml
-├── pom.xml
 └── README.md
